@@ -1,0 +1,81 @@
+/* Root variables */
+
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Slate-300: hsl(212, 45%, 89%);
+    --Slate-500: hsl(216, 15%, 48%);
+    --Slate-900: hsl(218, 44%, 22%);
+    --Font-size-paragraph: 15px;
+    --font-primary: 'Outfit', sans-serif;
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
+}
+
+
+/* Global Reset */
+
+
+* {
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: var(--font-primary);
+    font-size: var(--Font-size-paragraph);
+    background-color: var(--Slate-300);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/* QrCard Styling */
+
+
+.QrCard {
+    width: 300px;
+    background-color: var(--White);
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.QrCard img{
+    width: 100%;
+    border-radius: 12px;
+}
+
+
+.QrCard h6{
+   color: var(--Slate-900);
+   font-size: 20px;
+   font-weight: var(--font-weight-bold);
+   margin: 20px 0 12px;
+}
+
+
+.QrCard p{
+    font-weight: var(--font-weight-regular);
+    color: var(--Slate-500);
+}
+
+
+/* Attribution footer */
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
